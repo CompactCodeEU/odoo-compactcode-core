@@ -1,0 +1,6 @@
+./enterprise:
+  remotes:
+    odoo: https://github.com/odoo/enterprise.git
+  target: odoo saas-19.2
+  merges:
+    - odoo saas-19.2

@@ -20,6 +20,8 @@ __pycache__/
 status
 # odoo filestore
 odoo/filestore
+# git-aggregator pulled repos (see repos.yaml)
+/enterprise/
 # maintenance migration scripts
 odoo/addons/base/maintenance
 # windows installation config file

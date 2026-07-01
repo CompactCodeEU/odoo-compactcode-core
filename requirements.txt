@@ -62,3 +62,4 @@ zeep==4.3.1 ; python_version >= '3.13'
 
 # CompactCode requirements
 git-aggregator>=3.0
+PyJWT==2.7.0

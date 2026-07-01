@@ -1,6 +1,15 @@
 ./enterprise:
+  defaults: {depth: 1}
   remotes:
     enterprise: https://github.com/CompactCodeEU/compactcode-enterprise.git
   target: enterprise saas-19.2
   merges:
     - enterprise saas-19.2
+
+./custom-addons:
+    defaults: {depth: 1}
+    remotes:
+        origin: https://github.com/CompactCodeEU/odoo-compactcode-custom-addons.git
+    target: origin main
+    merges:
+        - origin main

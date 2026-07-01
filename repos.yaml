@@ -13,3 +13,11 @@
     target: origin main
     merges:
         - origin main
+
+./extra-addons:
+    defaults: {depth: 1}
+    remotes:
+        origin: https://github.com/CompactCodeEU/odoo-compactcode-extra-addons.git
+    target: origin main
+    merges:
+        - origin main

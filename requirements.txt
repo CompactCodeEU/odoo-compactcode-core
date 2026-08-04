@@ -65,3 +65,4 @@ git-aggregator>=3.0
 PyJWT==2.7.0
 phonenumbers
 paramiko
+rlPyCairo
